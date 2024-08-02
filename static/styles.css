@@ -1,0 +1,71 @@
+
+img{
+    object-fit:cover;
+}
+
+.chat-bubble{
+    border-radius: 5px;
+    padding: 7px;
+    text-align: justify;
+}
+
+
+.ai-bubble{
+    border: 1px solid #E5A823;
+    background-color: #f2f2f2;
+    color: black;
+
+}
+
+.user-bubble{
+    background-color: #1C88F4;
+    color: white;
+    border: 1px solid #0055A2;
+}
+
+.chat-row{
+    display: flex;
+    width: 100%;
+    gap: 10px;
+    margin: 20px 0;
+    /* padding: 10px; */
+}
+
+.row-reverse{
+    flex-direction: row-reverse;
+}
+
+.chat-icon{
+    border-radius: 50%;
+    border: 1px solid lightgrey;
+    padding: 0.1rem;
+}
+
+
+
+/* [data-testid="stVerticalBlock"]{
+    background-color: blue;
+} */
+
+
+a:link , a:visited{
+color: blue;
+background-color: transparent;
+text-decoration: underline;
+}
+
+a:hover,  a:active {
+color: red;
+background-color: transparent;
+text-decoration: underline;
+}
+
+.footer {
+position: fixed;
+left: 0;
+bottom: 0;
+width: 100%;
+background-color: white;
+color: black;
+text-align: center;
+}
